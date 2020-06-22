@@ -6,4 +6,5 @@ const characters = [
 ];
 
 const alive = characters.filter((item) => item.health > 0);
+
 console.log(alive);
